@@ -47,6 +47,47 @@
             </div>
             <!--/ list -->
     </template>
+    <template id="cardTemplate">
+        <!-- card -->
+        <div class="box">
+                <div class="columns">
+                    <div class="column" id="cardName">
+                        <!--nom de la carte-->>
+                    </div>
+                    <div class="column is-narrow">
+                        <a href="#" id="pencil">
+                            <span class="icon is-small has-text-primary">
+                                <i class="fas fa-pencil-alt"></i>
+                            </span>
+                        </a>
+                        <a href="#" id="dustbin">
+                            <span class="icon is-small has-text-danger">
+                                <i class="fas fa-trash-alt"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--/ card -->
+    </template>
+    <template id="deleteCard">
+            <div class="modal" id="addListModal">
+                    <div class="modal-background"></div>
+                    <div class="modal-card">
+                        <form action="" method="POST">
+                            <header class="modal-card-head">
+                                <p class="modal-card-title"><!--TITRE-->></p>
+                                <button class="delete close" type="button" aria-label="close"></button>
+                            </header>
+                            
+                            <footer class="modal-card-foot">
+                                <button class="button is-success"><!--CONFIRMER-->></button>
+                                <button class="button close" type="button"><!--ANNULER-->></button>
+                            </footer>
+                        </form>
+                    </div>
+                </div>
+    </template>
     <section class="section ">
         <div class="container">
             <h1 class="title">
